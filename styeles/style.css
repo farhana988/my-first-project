@@ -1,0 +1,32 @@
+label{
+    display: block;
+margin-bottom: 10px;
+}
+h2{
+    color: blue;
+}
+td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: 20px;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav  li {
+    list-style: none;
+}
+
+nav li:hover{
+    background-color: aqua;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
